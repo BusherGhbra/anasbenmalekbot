@@ -1,0 +1,17 @@
+google-api-core
+google-api-python-client
+google-auth             
+google-auth-httplib2    
+google-auth-oauthlib  
+google-pasta           
+googleapis-common-protos
+grpcio              
+gspread                  
+httplib2             
+oauth2client       
+oauthlib             
+pandas            
+pip
+python-telegram-bot     
+requests-oauthlib      
+io
