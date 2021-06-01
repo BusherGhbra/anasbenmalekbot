@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "proven-aura-315018",
+  "private_key_id": "4d4ba6c2dfee226276d13bf55ab8dfaa7bb199ca",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC98IG/pnsss5gn\nnWwxfKu6KVE5U+v74GQpPn/ggM+IMswb3Vb8+kWwCsUtHO5mBHVodvRV8RO9vXMd\n/bnjSBpIZkbFeXKqpJoMIJIxvw6uCvbYeY9aZvYE9rIyp4gkW8SuQ+hvCw3RVz8o\nL65YD6z8brmJUPg5L0SkWAlbo7Z3P4c9homN35aJk84NXwPA6hYHA5l2bC3lcVWr\n20FR5isJtQhsID9gHSHvn8Zvcrz/+CR4b2mELeOEdqh9wV02Y8H4LC95WkFROXWY\ntCUZ8XA4XmoGNHsW9Rp6wV9mt3O0PUwoKBZ95opqHS8e9KqUbx71Xje3V8zjhuJw\nNb6DUoPRAgMBAAECggEACbcq59rz63wvQP1+KoTaQt44q6JFjJ90eCCciWcFVo3k\nn1tBxxRlKqVOYyma7yh0ufh1tIytihPN9t+C2eOXBpOGtLSq3xwmzg5/c+B2N4RT\njoyfPsxL8sKMqGcl4Vg5VgGeuslZtlbMYfmYZSQ+ILZoMqQr4j7u96oSJngYDf7g\n1bkDHIdpF5THghynG76ueiYheHQEVlYjSFy3461qnB62WKUdQAC63lT4g9wAs3wg\ncMwp9yZo+rERloqWuUGJGFLSLmLsFv5TsUqVpt6ZJWIUK0ciuUhZPbT4zrf3CGiq\n7mmXFsPtIIlqrweW2AsHHw4p3Crmqs8sR81iCUcKXQKBgQD/l6EzzTyWF7ZJ/+m9\nZr+4bg0MMpAH0rNewYsTaQrCyiwF7sg6FbstGAMGuMqbQ2D6KN2zbHd4pw811X0x\nfZ1euFNx+HfQAj3GUKP4GF+S9xWltE0yqsfs7ktJXiOKM7xWAY2Nv7Z0sL3t/R+2\nCab7XcDyxkhkj4H9q7r+harxHQKBgQC+PhFpQtIv42AAHlKlEt/LtkeWNnCBwzVH\nO99nobK9OOyJf2PAPwZOpQgc6a/5TS9LE/AeWOam9SaDz/HAP2O23M44azUmRAMF\nUYy3CtRIb96rqhpLsYfrM3CRRlGHwygQW4YpysSgS04rbdV/3OegsYnDm8vHRibU\n7F5amhXzRQKBgQDJKxEH8pujDtq8952DI2H2yTefyBQw9BeVlwPdrSl5EyL/MGeL\nwBrobSPEoKFm/utPOeb1F4QZBHQmTPgSgeng6XdUFtpGb90rP8EuvhBLXgo9t+Gi\n5WQiCZRcFKooVnv/vY0qaiAzTADRVg8legdhhPMeog3MiF8px4aQWainyQKBgA/B\nrEd/lVEKEAVyfX3WllqU+lDiqWbV+C+yMcqvhdJOSKkKuARQNAGHgaiDYmPPlL8v\nI5Af5NqnK013h5pYpbWbjCj4GCrXLzjdjD4M05A8U8D8Ebl7NrqwQ/6ESHRqIYNZ\nUT9c3/Q2yH6oViqE7VpN2g8tdC9JDCZOfXIbmP3RAoGBAJ/jo3CSit1jPnuGR1dz\nDCHR1fOEb33K1OMSOqb6K+nyN8QlMyC1zx5MuEsQZ0yfE1YfP+MkiEbk7S97xcyb\nrdhdlV7XhcIieBlus5w2tCaYt7IIjXGwgsV3rcRzF9SCa2bwtwhAZdGweecTNWMy\nILXfDL4JbCz77LHZjPm0vRFw\n-----END PRIVATE KEY-----\n",
+  "client_email": "bot-650@proven-aura-315018.iam.gserviceaccount.com",
+  "client_id": "113858714389870846564",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bot-650%40proven-aura-315018.iam.gserviceaccount.com"
+}
