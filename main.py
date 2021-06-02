@@ -37,7 +37,10 @@ def reset(update: Update, context: CallbackContext) -> None:
 
 def get_file(update: Update, context: CallbackContext, file_type: str) -> None:
     username = context.user_data.get('active_user', '')
-    update.message.reply_text('الرجاء الانتظار\nجاري تحميل البيانات المطلوبة ...')
+    wait_msg = context.bot.send_message(
+        update.effective_chat.id,
+        'الرجاء الانتظار\nجاري تحميل البيانات المطلوبة ...'
+    )
     if username:
         status, fh = responses.get_file(username, file_type)
         if status:
@@ -66,6 +69,8 @@ def get_file(update: Update, context: CallbackContext, file_type: str) -> None:
                 resize_keyboard=True
             )
         )
+
+    context.bot.delete_message(update.effective_chat.id, wait_msg.message_id)
 
 
 def get_points(update: Update, context: CallbackContext) -> None:
