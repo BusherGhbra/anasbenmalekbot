@@ -25,14 +25,18 @@ def start(update: Update, context: CallbackContext) -> None:
 
 
 def refresh(_: Update, context: CallbackContext) -> None:
-    if context.user_data.get('active_user', '') in constants.ADMIN:
-        responses.load_data()
+    current_user = context.user_data.get('active_user', '')
+    for admin, _ in constants.ADMIN:
+        if current_user.lower() == admin.lower():
+            responses.load_data()
 
 
 def reset(update: Update, context: CallbackContext) -> None:
-    if context.user_data.get('active_user', '') in constants.ADMIN:
-        context.user_data.clear()
-        start(update, context)
+    current_user = context.user_data.get('active_user', '')
+    for admin, _ in constants.ADMIN:
+        if current_user.lower() == admin.lower():
+            context.user_data.clear()
+            start(update, context)
 
 
 def get_file(update: Update, context: CallbackContext, file_type: str) -> None:
