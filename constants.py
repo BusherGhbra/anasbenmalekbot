@@ -1,14 +1,12 @@
-ADMIN = ['bsher']
+ADMIN = [('Bsher', 'admin@Bot')]
 
 BOT_KEY = '1751359754:AAFqWhyZHN63cs6gnrAeMDtG24VBQH8za88'
 
-DRIVE_FOLDER = '1wJMvRf1S-Pv6vnm5IDuEIQ3zBaMvsoVZ'
+DRIVE_FOLDER = '1OS0aNM-Utpup2ya9i6cjQE85Ip3Cg6aI'
 
 CLIENT_SECRET_FILE = 'token.json'
 API_NAME = 'drive'
 API_VERSION = 'v3'
-
-SHEET_OFFSET = 3
 
 SCOPES = [
     'https://www.googleapis.com/auth/drive',
@@ -20,6 +18,6 @@ SCOPES = [
 main_keyboard = [
     ['الأجزاء المسبورة', 'الصفحات المسمعة'],
     ['رصيد النقاط'],
-    ['الملاحظات',  'الحضور'],
+    ['الملاحظات الأسبوعية',  'الحضور'],
     ['العودة إلى القائمة الرئيسية']
 ]
