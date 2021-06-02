@@ -37,6 +37,7 @@ def reset(update: Update, context: CallbackContext) -> None:
 
 def get_file(update: Update, context: CallbackContext, file_type: str) -> None:
     username = context.user_data.get('active_user', '')
+    update.message.reply_text('الرجاء الانتظار\nجاري تحميل البيانات المطلوبة ...')
     if username:
         status, fh = responses.get_file(username, file_type)
         if status:
@@ -139,7 +140,7 @@ if __name__ == '__main__':
 
     dispatcher.add_handler(
         MessageHandler(
-            Filters.regex('^(الملاحظات)$'),
+            Filters.regex('^(الملاحظات الأسبوعية)$'),
             functools.partial(lambda update, context, file_type: 
                 get_file(update, context, file_type), file_type='N')
         )
