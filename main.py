@@ -138,15 +138,6 @@ if __name__ == '__main__':
         )
     )
 
-
-    dispatcher.add_handler(
-        MessageHandler(
-            Filters.regex('^(الحضور)$'),
-            functools.partial(lambda update, context, file_type: 
-                get_file(update, context, file_type), file_type='A')
-        )
-    )
-
     dispatcher.add_handler(
         MessageHandler(
             Filters.regex('^(الملاحظات الأسبوعية)$'),
