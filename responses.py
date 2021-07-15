@@ -18,8 +18,6 @@ def load_data():
     sheets['students'] = client.open('students').sheet1
     sheets['P'] = client.open('pages').sheet1
     sheets['S'] = client.open('sections').sheet1
-    sheets['N'] = client.open('notes').sheet1
-    sheets['A'] = client.open('attendance').sheet1
 
     global service
     service = Create_Service(
