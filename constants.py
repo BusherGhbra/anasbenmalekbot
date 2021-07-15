@@ -1,8 +1,10 @@
 ADMIN = [('Bsher', 'admin@Bot')]
 
-BOT_KEY = '1751359754:AAFqWhyZHN63cs6gnrAeMDtG24VBQH8za88'
+BSHER_BOT = '1603307252:AAGrFjuko3m74AJCDCU6qoSPoWupnhT4q_E'
+ANAS_BOT = '1751359754:AAFqWhyZHN63cs6gnrAeMDtG24VBQH8za88'
+BOT_KEY = BSHER_BOT
 
-DRIVE_FOLDER = '1OS0aNM-Utpup2ya9i6cjQE85Ip3Cg6aI'
+DRIVE_FOLDER = '193v7kQrnIm8ZzdsOIyc8TpjLx0tNDSlW'
 
 CLIENT_SECRET_FILE = 'token.json'
 API_NAME = 'drive'
@@ -17,6 +19,6 @@ SCOPES = [
 
 main_keyboard = [
     ['الأجزاء المسبورة', 'الصفحات المسمعة'],
-    ['الملاحظات الأسبوعية',  'رصيد النقاط'],
+    ['رصيد النقاط'],
     ['العودة إلى القائمة الرئيسية']
 ]
